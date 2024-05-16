@@ -3,6 +3,7 @@
 ## 画面一覧
 
 - [ログイン画面](./screen_desgin/login_screen.md)
+- [アカウント作成画面](./screen_desgin/create_user_screen.md)
 - [タスク一覧画面](./screen_desgin/task_list_screen.md)
 - [タスク詳細画面](./screen_desgin/task_detail_screen.md)
 - [タスク作成画面](./screen_desgin/task_create_screen.md)
