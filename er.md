@@ -8,11 +8,12 @@ erDiagram
     bigint user_id FK "NotNull"
     varchar title "NotNull"
     varchar description
-    varchar status "NotNull"
+    integer status "NotNull"
     integer scheduled_time
     timestamp deadline
     timestamp created_at
     timestamp updated_at
+    timestamp deleted_at
   }
 
   users {
@@ -22,6 +23,7 @@ erDiagram
     varchar password "NotNull"
     timestamp created_at
     timestamp updated_at
+    timestamp deleted_at
   }
 
   tags {
